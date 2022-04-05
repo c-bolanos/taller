@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('personas', 'App\http\Controllers\PersonaController');
+Route::resource('persona', 'App\http\Controllers\PersonaController');
